@@ -8041,6 +8041,18 @@
       "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-3.11.2.min.js"
     },
     {
+      "Id": "C:\\Users\\ll novbe\\source\\repos\\Pronia\\Pronia\\wwwroot\\imgs\\sliders\\b2thtgz0.z4c.png",
+      "PackagePath": "staticwebassets\\imgs\\sliders\\b2thtgz0.z4c.png"
+    },
+    {
+      "Id": "C:\\Users\\ll novbe\\source\\repos\\Pronia\\Pronia\\wwwroot\\imgs\\sliders\\sbjrwske.rom.jpg",
+      "PackagePath": "staticwebassets\\imgs\\sliders\\sbjrwske.rom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ll novbe\\source\\repos\\Pronia\\Pronia\\wwwroot\\imgs\\sliders\\tz4vjpyt.5va.jpg",
+      "PackagePath": "staticwebassets\\imgs\\sliders\\tz4vjpyt.5va.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Pronia.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

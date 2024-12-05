@@ -11,7 +11,7 @@ namespace Pronia.Controllers
         {
             var datas = await _context.Sliders
                 .Where(x=>!x.IsDeleted)
-                .Select(x => new SliderItemVm
+                .Select(x => new SliderItemVM
                 {
                  ImageUrl = x.ImageUrl,
                  Link = x.Link,

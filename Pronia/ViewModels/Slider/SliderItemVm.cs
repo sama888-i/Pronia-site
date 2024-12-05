@@ -1,6 +1,6 @@
 ﻿namespace Pronia.ViewModels.Slider
 {
-    public class SliderItemVm
+    public class SliderItemVM
     {
         public string Title { get; set; }
         public string Subtitle { get; set; }

@@ -3,33 +3,27 @@
     Layout = "_Layout";
     ViewData["Title"] = "Ana sehife";
 }
-    <!-- Begin Slider Area -->
-@foreach (var item in Model)
-{
-    <div class="slider-area">
-        <!-- Main Slider -->
-      <div class="swiper-container main-slider swiper-arrow with-bg_white">
+   
+<!-- Begin Slider Area -->
+<div class="slider-area">
+    <!-- Main Slider -->
+          
+    <div class="swiper-container main-slider swiper-arrow with-bg_white">
         <div class="swiper-wrapper">
+          @foreach (var item in Model)
+          {
             <div class="swiper-slide animation-style-01">
+               
                 <div class="slide-inner style-1 bg-height"
-                     data-bg-image="~/assets/images/slider/bg/1-1.jpg">
-                    <div class="container">
-                        <div class="row">
-                           
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide animation-style-01">
-                <div class="slide-inner style-1 bg-height"
-                     data-bg-image="~/assets/images/slider/bg/1-1.jpg">
+                     data-bg-image="assets/images/slider/bg/1-1.jpg">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6 order-2 order-lg-1 align-self-center">
-                                <div class="slide-content text-black">                                    
-                                        <h2 class=" @item.Title"></h2>
-                                        <p class="@item.Subtitle"> </p>
+                                <div class="slide-content text-black">
+                                    <h2 class="title">@item.Title</h2>
+                                    <p class="short-desc">
+                                        @item.Subtitle
+                                    </p>
                                     <div class="btn-wrap">
                                         <a class="btn btn-custom-size xl-size btn-pronia-primary"
                                            href="shop.html">Discover Now</a>
@@ -40,7 +34,7 @@
                                 <div class="inner-img">
                                     <div class="scene fill">
                                         <div class="expand-width" data-depth="0.2">
-                                            <img src="~/assets/images/website-images//1-2-524x617.png"
+                                            <img src="~/imgs/sliders/@item.ImageUrl"width="350px"
                                                  alt="Inner Image" />
                                         </div>
                                     </div>
@@ -49,7 +43,9 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
+          }  
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination d-md-none"></div>
@@ -57,9 +53,8 @@
         <!-- Add Arrows -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-      </div>
     </div>
-}
+</div>
 <!-- Slider Area End Here -->
 <!-- Begin Shipping Area -->
 <div class="shipping-area section-space-top-100">
